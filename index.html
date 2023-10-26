@@ -9,8 +9,8 @@
 <link href="https://fonts.googleapis.com/css?family=Kufam:400&subset=arabic,latin-ext,vietnamese&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Changa:700,400&subset=arabic,latin-ext&display=swap" rel="stylesheet">
-<link href="css/حسن_الاسيوطى.css?v=1" rel="stylesheet">
-<link href="css/index.css?v=1" rel="stylesheet">
+<link href="css/حسن_الاسيوطى.css?v=2" rel="stylesheet">
+<link href="css/index.css?v=2" rel="stylesheet">
 <script src="jquery-3.7.0.min.js"></script>
 <script src="jquery.ui.effect.min.js"></script>
 <script src="wb.panel.min.js"></script>
@@ -274,6 +274,11 @@ $(document).ready(function()
    {
       onScrollCard6_card_item1();
    });
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
 });
 </script>
 </head>
@@ -731,5 +736,6 @@ $(document).ready(function()
 <div id="wb_Text15">
 <span id="wb_uid57">إتصل الان</span></div>
 </div>
+<div id="preloader"></div>
 </body>
 </html>

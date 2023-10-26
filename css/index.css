@@ -13,6 +13,15 @@ body
 {
    visibility: hidden;
 }
+#preloader
+{
+   background: #FFFFFF url("../images/clock.gif") no-repeat center center;
+   bottom: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
 #wb_Image8
 {
    margin: 0;
@@ -3795,13 +3804,13 @@ body
 {
    color: #FF5E14;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_uid5
 {
    color: #000000;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_PanelMenu1
 {
@@ -3835,13 +3844,13 @@ body
 {
    color: #FF5E14;
    font-family: "Arial";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_uid4
 {
    color: #FF5E14;
    font-family: "Arial";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_Image1
 {
@@ -3875,7 +3884,7 @@ body
 {
    color: #FF5E14;
    font-family: "Arial";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_uid3
 {
@@ -3921,7 +3930,7 @@ body
 {
    color: #000000;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_uid2
 {
@@ -3970,7 +3979,7 @@ body
 {
    color: #FF5E14;
    font-family: "Arial";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_uid1
 {
@@ -4005,7 +4014,7 @@ body
 {
    color: #000000;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_Image4
 {
@@ -4044,7 +4053,7 @@ body
 {
    color: #000000;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_Image6
 {
@@ -4078,7 +4087,7 @@ body
 {
    color: #FF5E14;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_Carousel1
 {
@@ -4188,7 +4197,7 @@ body
 {
    color: #FF5E14;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #Layer1
 {
@@ -4256,7 +4265,7 @@ body
 {
    color: #FF5E14;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_uid52
 {
@@ -4301,7 +4310,7 @@ body
 {
    color: #000000;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_uid53
 {
@@ -4346,7 +4355,7 @@ body
 {
    color: #FF5E14;
    font-family: "Arial";
-   font-size: 16px;
+   font-size: 13px;
 }
 #wb_uid50
 {
@@ -4371,7 +4380,7 @@ body
 {
    color: #FF5E14;
    font-family: "Cairo";
-   font-size: 16px;
+   font-size: 13px;
 }
 @media only screen and (max-width: 969px)
 {
@@ -4623,17 +4632,17 @@ body
 #LayoutGrid3
 {
    height: auto;
-   padding: 0 10px 0 10px;
+   padding: 0 5px 0 5px;
 }
 #LayoutGrid3 .row
 {
-   margin-right: -10px;
-   margin-left: -10px;
+   margin-right: -5px;
+   margin-left: -5px;
 }
 #LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2
 {
-   padding-right: 10px;
-   padding-left: 10px;
+   padding-right: 5px;
+   padding-left: 5px;
 }
 #LayoutGrid3 > .row > .col-1
 {
@@ -4653,8 +4662,8 @@ body
 }
 #wb_Image3
 {
-   width: 169px;
-   height: 263px;
+   width: 144px;
+   height: 238px;
    visibility: visible;
    display: inline-block;
    margin: 0 6px 0 0 ;
@@ -4663,13 +4672,13 @@ body
 #Image3
 {
    border-radius: 5px;
-   width: 169px;
-   height: 263px;
+   width: 144px;
+   height: 238px;
 }
 #wb_Image4
 {
-   width: 169px;
-   height: 263px;
+   width: 144px;
+   height: 238px;
    visibility: visible;
    display: inline-block;
    margin: 0 0 0 6px;
@@ -4678,8 +4687,8 @@ body
 #Image4
 {
    border-radius: 5px;
-   width: 169px;
-   height: 263px;
+   width: 144px;
+   height: 238px;
 }
 #wb_LayoutGrid2
 {
@@ -4832,7 +4841,7 @@ body
 #wb_Shape1
 {
    width: 130px;
-   height: 176px;
+   height: 179px;
    visibility: visible;
    display: inline-block;
    margin: 0;
@@ -4840,12 +4849,12 @@ body
 #Shape1
 {
    width: 130px;
-   height: 176px;
+   height: 179px;
 }
 #wb_Text8
 {
-   width: 207px;
-   height: 187px;
+   width: 171px;
+   height: 162px;
    visibility: visible;
    display: inline-block;
 }
